@@ -32,7 +32,7 @@ style_code = """
         font-size: 1.1rem;
         color: #B3B3B3;
         margin-bottom: 40px;
-        font-wight: 300;
+        font-weight: 300;
     }
     div.stTextInput > div > div > input {
         background-color: rgba(255, 255, 255, 0.07) !important;
@@ -62,7 +62,7 @@ style_code = """
     }
     .song-title {
         font-size: 1.4rem;
-        font-wight: 600;
+        font-weight: 600;
         color: #FFFFFF;
         margin-bottom: 25px;
     }
@@ -122,7 +122,7 @@ st.markdown(style_code, unsafe_allow_html=True)
 
 # الهيدر برأس الصفحة
 st.markdown('<div class="brand-title">✨ MTR AURA ✨</div>', unsafe_allow_html=True)
-st.markdown('<div class="brand-subtitle">سمفونية البحث والتحميل الموسيقي الذهبي </div>', unsafe_allow_html=True)
+st.markdown('<div class="brand-subtitle">سمفونية البحث والتحميل الموسيقي الفاخر</div>', unsafe_allow_html=True)
 
 # صندوق البحث
 query = st.text_input("", placeholder="...Enter اكتب اسم الأغنية أو الفنان هنا ثم اضغط")
@@ -139,8 +139,7 @@ if query:
         <div class="song-title">🎵 نتائج البحث عن: {query}</div>
         <div class="btn-grid">
             <a href="{mp3_direct_link}" target="_blank" class="luxury-btn btn-gold">
-            
-        🔥 التحميل المباشر الفخم (MP3)
+                🔥 التحميل المباشر الفخم (MP3)
             </a>
             <a href="{google_link}" target="_blank" class="luxury-btn btn-dark">
                 🔍 بحث جوجل السريع
