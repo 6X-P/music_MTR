@@ -32,7 +32,7 @@ style_code = """
         font-size: 1.1rem;
         color: #B3B3B3;
         margin-bottom: 40px;
-        font-weight: 300;
+        font-black: 300;
     }
     div.stTextInput > div > div > input {
         background-color: rgba(255, 255, 255, 0.07) !important;
@@ -62,7 +62,7 @@ style_code = """
     }
     .song-title {
         font-size: 1.4rem;
-        font-weight: 600;
+        font-black: 600;
         color: #FFFFFF;
         margin-bottom: 25px;
     }
@@ -139,7 +139,8 @@ if query:
         <div class="song-title">🎵 نتائج البحث عن: {query}</div>
         <div class="btn-grid">
             <a href="{mp3_direct_link}" target="_blank" class="luxury-btn btn-gold">
-                🔥 التحميل المباشر الفخم (MP3)
+            
+        🔥 التحميل المباشر الفخم (MP3)
             </a>
             <a href="{google_link}" target="_blank" class="luxury-btn btn-dark">
                 🔍 بحث جوجل السريع
