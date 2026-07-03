@@ -32,7 +32,7 @@ style_code = """
         font-size: 1.1rem;
         color: #B3B3B3;
         margin-bottom: 40px;
-        font-black: 300;
+        font-wight: 300;
     }
     div.stTextInput > div > div > input {
         background-color: rgba(255, 255, 255, 0.07) !important;
@@ -62,7 +62,7 @@ style_code = """
     }
     .song-title {
         font-size: 1.4rem;
-        font-black: 600;
+        font-wight: 600;
         color: #FFFFFF;
         margin-bottom: 25px;
     }
