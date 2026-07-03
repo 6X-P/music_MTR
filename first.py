@@ -176,7 +176,7 @@ if query:
     yt_link = f"https://www.youtube.com/results?search_query={encoded_query}"
     google_link = f"https://www.google.com/search?q={encoded_query}+تحميل+mp3"
     mp3_direct_link = f"https://y2mate.is/en/search?q={encoded_query}"
-    
+    https://en.y2mate.is/s?q=%7Bencoded_query%7D
     # عرض بطاقة النتائج الفاخرة
     st.markdown(f"""
     <div class="music-card">
